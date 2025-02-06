@@ -1,0 +1,30 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.sub-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  text-align: center;
+}
+.btn {
+  background-color: #ffffff;
+  border-color: #0f172a;
+  border-width: 1.5px;
+  border-radius: 8px;
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+}
